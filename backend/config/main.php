@@ -14,6 +14,7 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'homeUrl' => '/admin',
+    'layout' => 'lte3/main.php',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
